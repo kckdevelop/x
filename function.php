@@ -12,7 +12,7 @@ $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
 //$header[] = "X-Location: -5.1313083,119.4310792";	
-$header[] = "X-Location: -6.913010,107.609605";
+$header[] = "X-Location: -6.1985581,106.7901312";
 $header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
