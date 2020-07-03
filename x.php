@@ -56,7 +56,7 @@ echo color("nevy"," ================================= \n");
         sleep(5);
         }
         reff:
-        $data = '{"referral_code":"G-TM5CNF9"}';
+        $code1 = '("https://gojek.page.link/referral.bot)';
         $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
         $message = fetch_value($claim,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
